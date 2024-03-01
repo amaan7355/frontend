@@ -1,38 +1,11 @@
-.App {
-  text-align: center;
+.home-body{
+  background-image: linear-gradient(270deg, rgba(188, 236, 188, 0.297), rgba(163, 150, 150, 0.339), rgba(220, 20, 60, 0.062)), url("https://images6.alphacoders.com/114/1142152.jpg");
+    background-size: cover;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item .active{
+  font-weight: bold;
+  border-bottom: 2px solid blueviolet;
+  color: blueviolet !important;
 }
